@@ -18,7 +18,7 @@ let droneChoicePending = false;
 
 
 function setup() {
-createCanvas(650, 450);
+createCanvas(windowWidth, windowHeight);
 player = new Player();
 
 
